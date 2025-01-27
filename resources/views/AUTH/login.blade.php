@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-[#FFFAF6] h-screen flex flex-col justify-center items-center">
-    <img src="/Assets/logo.png" class="mb-10" alt="">
+    <img src="/Assets/logo.png" class="mb-10" alt="" draggable="false">
     <div class="p-10 bg-white w-96 lg:w-[500px] space-y-4 shadow-lg rounded-lg">
         <div class="flex flex-col space-y-2">
             <label>Email</label>
@@ -20,8 +20,8 @@
         </div>
         {{--CHECK BOX--}}
         <div class="flex items-center justify-end gap-4">
-            <h1 class="text-slate-400 underline">Forgot your password?</h1>
-            <a href="#" class="px-4 py-1 bg-black text-white rounded-lg">LOG IN</a>
+            <h1 class="text-slate-400 underline cursor-pointer">Forgot your password?</h1>
+            <a href="#" class="px-4 py-1 bg-[#EC690F] text-white rounded-lg hover:scale-110">LOG IN</a>
         </div>
     </div>
 </body>
